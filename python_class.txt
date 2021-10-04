@@ -1,0 +1,13 @@
+class pow:
+    def __init__(self,x,n):
+        self.x = x
+        self.n = n
+    
+    def ans(self):
+        c = self.x ** self.n
+        print(c) 
+    
+    
+    
+y = pow(10,2)
+y.ans()
